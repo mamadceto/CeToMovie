@@ -48,7 +48,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-    optimizeDeps: {
-        exclude: ['js-big-decimal']
-    }
+  //server: {
+   // host: '192.168.1.5', // این خط باعث می‌شود که Vite به تمام IPهای موجود روی سیستم گوش دهد.
+   // port: 3000, // شماره پورت دلخواه خود را وارد کنید.
+   // open: true, // به طور خودکار مرورگر را باز می‌کند.
+ // }
 })

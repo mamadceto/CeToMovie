@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-c60a7ff3'], (function (workbox) { 'use strict';
+define(['./workbox-8b5668f6'], (function (workbox) { 'use strict';
 
   self.addEventListener('message', event => {
     if (event.data && event.data.type === 'SKIP_WAITING') {
@@ -81,14 +81,14 @@ define(['./workbox-c60a7ff3'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-04c732b1.js",
-    "revision": null
+    "url": "assets/index-CYvF0lt3.js",
+    "revision": "0fff26efad6d9be7489825664a3d40cf"
   }, {
-    "url": "assets/index-1d147056.css",
-    "revision": null
+    "url": "assets/index-DvecGVaE.css",
+    "revision": "6a1ae5b2801f9d582609189cf0989b23"
   }, {
     "url": "index.html",
-    "revision": "131dd5383d2ba67f41c7ef9ffd7bb8a4"
+    "revision": "b72da0ba0489bde839f86e36ba7ab6b4"
   }, {
     "url": "registerSW.js",
     "revision": "1872c500de691dce40960bb85481de07"
